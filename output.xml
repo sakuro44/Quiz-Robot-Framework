@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.6 on darwin)" generated="2024-01-29T14:35:35.711848" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="/Users/kanokwansakson/Desktop/ไม่มีชื่อโฟลเดอร์/Test.robot">
+<kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
+<msg time="2024-01-29T14:35:35.826210" level="INFO">Opening browser 'firefox' to base url 'http://automationexercise.com'.</msg>
+<arg>http://automationexercise.com</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-01-29T14:35:35.825970" elapsed="7.367074"/>
+</kw>
+<test id="s1-t1" name="Login with Standard User" line="24">
+<kw name="Cilck Pages Products">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-29T14:35:43.197198" level="INFO">Clicking element '//*[@id="header"]/div/div/div/div[2]/div/ul/li[2]'.</msg>
+<arg>//*[@id="header"]/div/div/div/div[2]/div/ul/li[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-29T14:35:43.196444" elapsed="4.121515"/>
+</kw>
+<status status="PASS" start="2024-01-29T14:35:43.195691" elapsed="4.122510"/>
+</kw>
+<kw name="Input Product Name">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-01-29T14:35:47.319512" level="INFO">Typing text 'Cotton Silk Hand Block Print Saree' into text field '//*[@id="search_product"]'.</msg>
+<arg>//*[@id="search_product"]</arg>
+<arg>${PRODUCTNAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-29T14:35:47.319150" elapsed="0.046018"/>
+</kw>
+<arg>${PRODUCTNAME}</arg>
+<status status="PASS" start="2024-01-29T14:35:47.318639" elapsed="0.046718"/>
+</kw>
+<kw name="Cilck search button">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-01-29T14:35:47.366261" level="INFO">Clicking button '//*[@id="submit_search"]'.</msg>
+<arg>//*[@id="submit_search"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-29T14:35:47.366030" elapsed="1.107752"/>
+</kw>
+<status status="PASS" start="2024-01-29T14:35:47.365703" elapsed="1.108369"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-01-29T14:35:48.501115" level="INFO">Current page contains text 'Products'.</msg>
+<arg>Products</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-01-29T14:35:48.474522" elapsed="0.027042"/>
+</kw>
+<doc>This testcase is expected to show "Products"</doc>
+<status status="PASS" start="2024-01-29T14:35:43.194080" elapsed="5.307889"/>
+</test>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-01-29T14:35:48.502750" elapsed="0.641790"/>
+</kw>
+<doc>Test</doc>
+<status status="PASS" start="2024-01-29T14:35:35.714432" elapsed="13.430252"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

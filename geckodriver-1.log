@@ -1,0 +1,19 @@
+1706513443689	geckodriver	INFO	Listening on 127.0.0.1:51908
+1706513443697	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/Use ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/11/tz36n3b503jb9bwt7gb0cbcm0000gn/T/rust_mozprofile0Cqt2Q"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706513444005	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706513444313	Marionette	INFO	Listening on port 51912
+WebDriver BiDi listening on ws://127.0.0.1:51909
+Read port: 51912
+1706513444515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:51909/devtools/browser/6d6e438f-b345-4344-9c7c-d9f3d306ff63
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1706513455757	Marionette	INFO	Stopped listening on port 51912
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202401240101/show_ads_impl_fy2021.js?bust=31080663, line 62: Script terminated by timeout at:
+Ef/</<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202401240101/show_ads_impl_fy2021.js?bust=31080663:62:44
+
